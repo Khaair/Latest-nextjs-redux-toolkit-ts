@@ -1,0 +1,47 @@
+.bdeshop-allorder-area {
+  .all-order-table-wrapper {
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    width: 100%;
+    .all-order-table-title {
+      display: flex;
+      justify-content: space-between;
+    }
+    .table-responsive {
+      overflow-x: auto;
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+        border: 1px solid hsla(210, 18%, 87%, 1);
+
+        td {
+          padding: 20px 20px;
+          text-align: left;
+          .all-order-table-img {
+            background-image: url("https://dgarma-prod.s3.ap-southeast-1.amazonaws.com/public/products/oRXR_8MPB-thermax003.jpg");
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            width: 100px;
+            height: 100px;
+          }
+          .order-table-title {
+            width: 300px;
+          }
+          .order-table-btn {
+            padding: 3px;
+            color: #fff;
+            background-color: #7f8389;
+          }
+
+          .order-table-last-item {
+            display: flex;
+            justify-content: end;
+            color: rgb(10, 209, 143);
+          }
+        }
+      }
+    }
+  }
+}

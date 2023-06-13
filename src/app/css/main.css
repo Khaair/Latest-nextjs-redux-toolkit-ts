@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;0,900;1,300&family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,300&display=swap");
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+}
+
+.header-user-icon {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  background: #d9ddef;
+  border-radius: 50%;
+}
+
+.header-user-icon i {
+  padding: 10px 4px;
+  color: white;
+}
+
+.header-left-content-wrapper {
+  display: flex;
+  justify-content: right;
+}
+
+.bohubrihi-banner-area {
+  padding-top: 160px;
+}
+
+.banner-title h1 {
+  font-weight: 900;
+  font-style: bolder;
+  color: black;
+}
+
+.LearnWhat_learn__card__nNPCU {
+  height: 20.625rem;
+  background: #fff;
+  border-radius: 0.5rem;
+  transition: all 0.3s;
+  border: 1px solid #f2f2f3;
+  display: flex;
+  justify-content: center;
+}
+
+.my-course-btn {
+  background-color: #0a598a;
+}
